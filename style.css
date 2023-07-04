@@ -14,12 +14,17 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+    font-family: "gooddog";
+    src: url(fonts/gooddog.ttf);
+  }
+
 .up_arrow {
-    display: flex;
-    flex-direction: column;
-	position: fixed;
-	left: 45px;
-	bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 45px;
+  bottom: 45px;
   border-radius: 70px;
   border: 1px solid var(--text-color-1, #2d2d2d);
   background: var(
@@ -36,13 +41,13 @@ a {
   align-items: flex-start;
   gap: 10px;
   font-size: 14px;
-   }
+}
 
-   .topNubex {
-    font-family: Open Sans;
-    color: #2d2d2d;
-    font-weight: 500;
-   }
+.topNubex {
+  font-family: Open Sans;
+  color: #2d2d2d;
+  font-weight: 600;
+}
 .main_screen {
   height: 1080px;
   background-image: url(img/main-BG.png);
@@ -69,7 +74,7 @@ a {
 }
 
 .top_left_content {
-    padding-top: 222px;
+  padding-top: 222px;
 }
 
 .big-text {
@@ -85,13 +90,13 @@ a {
   color: #fff;
   font-size: 18px;
   font-family: Open Sans;
-  font-weight: 700;
+  font-weight: 500;
   padding-top: 28px;
 }
 
-.top_button {
-    margin-top: 42px;
-  color:#2d2d2d;
+.top_button, .btn {
+  margin-top: 42px;
+  color: #2d2d2d;
   font-size: 20px;
   font-family: Open Sans;
   font-weight: 700;
@@ -114,5 +119,38 @@ a {
 }
 
 .logo {
-    padding-top: 480px;
+  padding-top: 480px;
+}
+
+.description {
+    padding-top: 46px;
+}
+.desc_top_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc_h2 {
+    color: #000;
+font-size: 48px;
+font-family: GoodDog;
+font-weight: 400;
+padding-left: 80px;
+}
+
+.desc_top_text {
+    padding-top: 46px;
+    width: 743px;
+    color: #000;
+text-align: center;
+/* Main text */
+font-size: 18px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+line-height: 200%;
+}
+
+.desc_house img{
+    padding-top: 40px;
 }
