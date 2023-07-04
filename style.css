@@ -15,9 +15,11 @@ a {
 }
 
 @font-face {
-    font-family: "gooddog";
-    src: url(fonts/gooddog.ttf);
-  }
+  font-family: "gooddog";
+  src: url(fonts/gooddog.ttf);
+}
+
+/* main_screen */
 
 .up_arrow {
   display: flex;
@@ -94,7 +96,8 @@ a {
   padding-top: 28px;
 }
 
-.top_button, .btn {
+.top_button,
+.btn {
   margin-top: 42px;
   color: #2d2d2d;
   font-size: 20px;
@@ -122,35 +125,156 @@ a {
   padding-top: 480px;
 }
 
+/* description */
+
 .description {
-    padding-top: 46px;
+  padding-top: 46px;
 }
 .desc_top_content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .desc_h2 {
-    color: #000;
-font-size: 48px;
-font-family: GoodDog;
-font-weight: 400;
-padding-left: 80px;
+  color: #000;
+  font-size: 48px;
+  font-family: GoodDog;
+  font-weight: 400;
+  padding-left: 80px;
 }
 
 .desc_top_text {
-    padding-top: 46px;
-    width: 743px;
-    color: #000;
-text-align: center;
-/* Main text */
-font-size: 18px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-line-height: 200%;
+  padding-top: 46px;
+  width: 743px;
+  color: #000;
+  text-align: center;
+  /* Main text */
+  font-size: 18px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 200%;
 }
 
-.desc_house img{
-    padding-top: 40px;
+.desc_house img {
+  padding-top: 40px;
+}
+
+.desc_btn {
+  margin-top: 110px;
+}
+
+.desc_text_block {
+  padding-left: 84px;
+  padding-top: 110px;
+}
+.desc_text1,
+.desc_text2 {
+  width: 1115px;
+  color: #2d2d2d;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 200%;
+}
+
+.desc_text2 {
+  padding-top: 40px;
+}
+
+.wave_line img {
+  width: 100%;
+}
+
+/* advantages */
+
+.advantages {
+  padding-top: 90px;
+}
+
+.advantages_content {
+  display: flex;
+  padding-top: 110px;
+  padding-left: 74px;
+}
+.advantages-h2 {
+  padding-left: 1012px;
+  color: #000;
+  font-size: 48px;
+  font-family: GoodDog;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.left_card {
+  display: flex;
+  width: 718px;
+  padding-bottom: 36px;
+}
+
+.card-content {
+  display: flex;
+  width: 520px;
+  padding: 20px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #2d2d2d;
+  background: #e5fb65;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
+    7px 9px 24px 0px rgba(0, 0, 0, 0.1), 28px 34px 44px 0px rgba(0, 0, 0, 0.09),
+    64px 77px 60px 0px rgba(0, 0, 0, 0.05),
+    113px 137px 71px 0px rgba(0, 0, 0, 0.01),
+    177px 214px 78px 0px rgba(0, 0, 0, 0);
+}
+
+.card-content p {
+  width: 420px;
+  text-align: center;
+  height: 50px;
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.advantages_right {
+    display: flex;
+    flex-direction: column;
+}
+.right_card {
+  margin-bottom: 20px;
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 800;
+  display: flex;
+  width: 405px;
+  padding: 20px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #2d2d2d;
+  background: #fdffa4;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
+    6px 6px 19px 0px rgba(0, 0, 0, 0.1), 25px 24px 35px 0px rgba(0, 0, 0, 0.09),
+    57px 54px 47px 0px rgba(0, 0, 0, 0.05),
+    101px 96px 56px 0px rgba(0, 0, 0, 0.01),
+    158px 151px 61px 0px rgba(0, 0, 0, 0);
+}
+
+.card1 {
+    margin-top: 28px;
+}
+.card5 {
+    width: 534px;
+    margin-bottom: 216px;
 }
