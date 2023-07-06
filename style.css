@@ -296,6 +296,8 @@ a {
   height: 1138px;
   background-image: url(img/BG\ slider.png);
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 .slider-h2 {
@@ -303,8 +305,10 @@ a {
   font-size: 48px;
   font-family: GoodDog;
   font-weight: 400;
-  padding-left: 1090px;
   padding-top: 85px;
+  display: flex;
+  justify-content: right;
+  padding-right: 82px;
 }
 
 .slider {
@@ -391,4 +395,141 @@ a {
 .colors-wave {
   width: 100%;
   margin-top: 19px;
+}
+
+/* Process */
+
+.process {
+  margin-top: 15px;
+}
+
+.process-h2 {
+  padding-left: 80px;
+  color: #2d2d2d;
+  font-family: GoodDog;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.process_cardbox {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+}
+
+.process_card {
+  position: relative;
+  display: inline-flex;
+  padding: 30px 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--text-color-1, #2d2d2d);
+  background: #fdffa4;
+  box-shadow: 0px 0px 0px 0px rgba(50, 85, 0, 0.1),
+    4px 5px 13px 0px rgba(50, 85, 0, 0.1),
+    16px 18px 24px 0px rgba(50, 85, 0, 0.09),
+    36px 41px 33px 0px rgba(50, 85, 0, 0.05),
+    63px 74px 39px 0px rgba(50, 85, 0, 0.01),
+    99px 115px 42px 0px rgba(50, 85, 0, 0);
+}
+
+.number {
+  position: absolute;
+  color: var(--text-color, #2d2d2d);
+  font-size: 96px;
+  font-family: GoodDog;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 12px;
+  top: -68px;
+}
+
+.process-text {
+  width: 265px;
+  text-align: center;
+}
+
+.card-1 {
+  margin-left: 80px;
+}
+
+.line1 {
+  margin-left: 442px;
+}
+
+.card-2 {
+  margin-left: 491px;
+}
+
+.line2 {
+  margin-left: 853px;
+}
+
+.card-3 {
+  margin-left: 902px;
+}
+
+.line3 {
+  margin-left: 853px;
+}
+
+.card-4 {
+  margin-left: 491px;
+}
+
+.line4 {
+  margin-left: 443px;
+}
+
+.card-5 {
+  margin-left: 80px;
+}
+
+.process_content1,
+.process_content2 {
+  width: 1152px;
+  margin-left: 80px;
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 200%;
+}
+
+.process_content1 {
+  padding-top: 110px;
+}
+
+.process_content2 {
+  font-weight: 700;
+  padding-top: 40px;
+}
+
+.payment {
+  height: 1052px;
+  background-image: url(img/payment-BG.png);
+  background-repeat: no-repeat;
+  margin-top: 110px;
+}
+
+.payment-h2 {
+  padding-top: 209px;
+  padding-left: 80px;
+  color: #fff;
+  font-family: GoodDog;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.payment_text {
+  width: 763px;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 200%;
+  padding-top: 170px;
 }
