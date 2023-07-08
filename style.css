@@ -301,15 +301,13 @@ a {
   flex-direction: column;
 }
 
-.slider-h2 {
+.slider-h2 h2 {
   color: #fff;
   font-size: 48px;
   font-family: GoodDog;
   font-weight: 400;
   padding-top: 85px;
-  display: flex;
-  justify-content: right;
-  padding-right: 120px;
+  padding-left: 1090px;
 }
 
 .slider {
@@ -568,7 +566,7 @@ a {
 .target_card-BG1 {
   position: absolute;
   z-index: -1;
-  left: -125px;
+  left: -80px;
   top: 207px;
 }
 .target_card-BG2 {
@@ -583,14 +581,17 @@ a {
   top: 142px;
 }
 
-.target_card-BG img {
-  width: 554px;
-  height: 599px;
-}
-
 .target_card-content {
   padding-top: 17px;
   width: 420px;
+}
+
+.target_card-img1 img {
+  height: 520px;
+  }
+
+.target_card-img3 img {
+height: 575px;
 }
 
 .target-h4 {
