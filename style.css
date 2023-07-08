@@ -588,10 +588,10 @@ a {
 
 .target_card-img1 img {
   height: 520px;
-  }
+}
 
 .target_card-img3 img {
-height: 575px;
+  height: 575px;
 }
 
 .target-h4 {
@@ -688,7 +688,32 @@ height: 575px;
 }
 
 .footer-BG img {
-bottom: 0;
-position: absolute;
-width: 100%;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.footer-house {
+  z-index: -2;
+}
+.footer-bot {
+  display: flex;
+}
+
+.contact-text {
+  color: #2d2d2d;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 200%;
+  padding-top: 385px;
+  z-index: 1;
+}
+
+.telegram {
+  position: absolute;
+  top: 361px;
+  right: 200px;
 }
