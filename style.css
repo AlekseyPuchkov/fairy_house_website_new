@@ -43,6 +43,7 @@ a {
   align-items: flex-start;
   gap: 10px;
   font-size: 14px;
+  z-index: 100;
 }
 
 .topNubex {
@@ -440,9 +441,7 @@ a {
   color: var(--text-color, #2d2d2d);
   font-size: 96px;
   font-family: GoodDog;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   left: 12px;
   top: -68px;
 }
@@ -450,8 +449,19 @@ a {
 .process-text {
   width: 265px;
   text-align: center;
+  color: #2d2d2d;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
 }
 
+.process_card h3 {
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
 .card-1 {
   margin-left: 80px;
 }
@@ -508,6 +518,8 @@ a {
   padding-top: 40px;
 }
 
+/* Payment */
+
 .payment {
   height: 1052px;
   background-image: url(img/payment-BG.png);
@@ -532,4 +544,149 @@ a {
   font-weight: 700;
   line-height: 200%;
   padding-top: 170px;
+}
+
+/* Target */
+
+.target-h2 {
+  padding-left: 80px;
+  color: #2d2d2d;
+  font-family: GoodDog;
+  font-size: 48px;
+  font-weight: 400;
+}
+.target_cardbox {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+.target_card {
+  width: 444px;
+  position: relative;
+}
+
+.target_card-BG1 {
+  position: absolute;
+  z-index: -1;
+  left: -125px;
+  top: 207px;
+}
+.target_card-BG2 {
+  position: absolute;
+  z-index: -1;
+  top: 288px;
+}
+
+.target_card-BG3 {
+  position: absolute;
+  z-index: -1;
+  top: 142px;
+}
+
+.target_card-BG img {
+  width: 554px;
+  height: 599px;
+}
+
+.target_card-content {
+  padding-top: 17px;
+  width: 420px;
+}
+
+.target-h4 {
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 800;
+}
+.target_card-text {
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%;
+  padding-top: 42px;
+}
+
+.target_wave-line {
+  width: 100%;
+  margin-top: 104px;
+}
+
+/* About_us */
+.about_us {
+  height: 760px;
+}
+
+.about_us-h2 {
+  color: #2d2d2d;
+  font-family: GoodDog;
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 46px;
+  padding-left: 1104px;
+}
+
+.about_us_content-box {
+  display: flex;
+  margin-top: 110px;
+}
+
+.about_us_content {
+  width: 649px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.about-txt-margin {
+  padding-bottom: 40px;
+}
+
+.about_text1 {
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.about_text2 {
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 200%;
+  margin: 0;
+}
+
+.about_text3 {
+  width: 543px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  margin: 0;
+}
+
+.about_text4 {
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 200%;
+  margin: 0;
+}
+
+.footer {
+  height: 604px;
+  position: relative;
+}
+
+.footer-BG img {
+bottom: 0;
+position: absolute;
+width: 100%;
 }
