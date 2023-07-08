@@ -309,7 +309,7 @@ a {
   padding-top: 85px;
   display: flex;
   justify-content: right;
-  padding-right: 82px;
+  padding-right: 120px;
 }
 
 .slider {
@@ -679,6 +679,7 @@ a {
   line-height: 200%;
   margin: 0;
 }
+/* Footer */
 
 .footer {
   height: 604px;
