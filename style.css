@@ -708,12 +708,37 @@ a {
   font-size: 18px;
   font-weight: 700;
   line-height: 200%;
-  padding-top: 385px;
+  padding-top: 430px;
   z-index: 1;
+}
+
+.phone {
+  position: absolute;
+  top: 379px;
+  right: 638px;
+}
+
+.sms {
+  position: absolute;
+  top: 366px;
+  right: 566px;
+}
+
+.email {
+  position: absolute;
+  top: 353px;
+  right: 494px;
+}
+
+.whatsapp {
+  position: absolute;
+  top: 340px;
+  right: 422px;
 }
 
 .telegram {
   position: absolute;
-  top: 361px;
-  right: 200px;
+  top: 327px;
+  right: 350px;
+  height: 50px;
 }
